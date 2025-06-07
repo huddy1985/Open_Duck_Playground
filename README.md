@@ -38,6 +38,11 @@ Infer mujoco
 uv run playground/open_duck_mini_v2/mujoco_infer.py -o <path_to_.onnx> (-k)
 ```
 
+Replay recorded observations
+```bash
+uv run playground/open_duck_mini_v2/replay_obs.py --obs <obs.pkl>
+```
+
 # Documentation
 
 ## Project structure : 
